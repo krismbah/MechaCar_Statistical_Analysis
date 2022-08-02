@@ -18,7 +18,7 @@ The purpose of this analysis is to to review the production data for insights th
 
 "Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?" According to the summary outpuut, the "ground_clearance" and "vehicle_length" (as well as the intercept) variables were statistically unlikely to provide random amounts of variance to the "mpg" values in the linear model. In other words, the "ground_clearance" and "vehicle_length" (as well as the intercept) variables have a significant impact on vehicle miles-per-gallon. Furthermore, "vehicle_weight" may also provide a slight amount of variance to "mpg" values, but not of noteable significance when considering a significance level of 0.05.
 
-"Is the slope of the linear model considered to be zero? Why or why not?" The p-value of our of the hypothesis test is 5.35e-11. This is much smaller than our assumed significance level of 0.05. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. This means that the slope of our linear model is not zero.
+"Is the slope of the linear model considered to be zero? Why or why not?" The p-value of our hypothesis test is 5.35e-11. This is much smaller than our assumed significance level of 0.05. Therefore, we can state that there is sufficient evidence to reject our null hypothesis. This also means that the slope of our linear model is not zero.
 
 "Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?" According to the multiple r-squared value of 0.7149, the multiple linear regression model will predict "mpg" values of MechaCar prototypes correctly approximately 71 percent of the time.
 
@@ -31,17 +31,28 @@ Figure 1:
 ***Deliverable 2: Linear Regression to Predict MPG*** The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using knowledge of R, create a summary statistics table to show; The suspension coil’s PSI continuous variable across all manufacturing lots, and the PSI metrics for each lot (mean, median, variance, and standard deviation).
 
 
-## Linear Regression to Predict MPG
+## Summary Statistics on Suspension Coils
 
+"The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?" According to the lot summary dataframe analysis, Lots 1 and 2 maintain suspension coil specifications within 100 pounds per square inch. However, Lot 3 exceeds those specifications by a variance of approximately 170 pounds per square inch. In total, the combined three lots are within the 100 pounds per square inch variance of design specifications for the MechaCar suspension coils.
 
 Figure 2:
 
 ![Image2](https://github.com/krismbah/bikesharing/blob/main/D1.png)
 
 
+Figure 2.1:
+
+![Image2.1](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+
+
+Figure 2.2:
+
+![Image2.2](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+
+
 ***Deliverable 3: T-Tests on Suspension Coils*** Using knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-## Linear Regression to Predict MPG
+## T-Tests on Suspension Coils
 
 
 Figure 3:
@@ -85,10 +96,3 @@ To summarize, worksheets, dashboards, and and story was created in Tableu in ord
 17. Use at least two visualizations that you created in this module.
 
 [link to dashboard](https://public.tableau.com/views/2019NYCCitibikeDataAnalysis/2019NYCCitibikeDataAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
-
-
-
-
-
-
