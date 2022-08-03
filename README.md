@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis is to to review the production data for insights that may help the manufacturing team to address production troubles that are blocking the progress of AutosRUs’ newest prototype, the MechaCar. The following tasks are to be completed: 
+The purpose of this analysis is to review the production data for insights that may help the manufacturing team to address production troubles which may blocking the progress of AutosRUs’ newest prototype, the MechaCar. The following tasks are to be completed: 
 
 1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
@@ -54,7 +54,7 @@ Figure 2.2:
 
 ## T-Tests on Suspension Coils
 
-The p-values of Lots 1 and 2 are greater than the significance level of 0.05 which means we do not have sufficient evidence to reject the null hypothesis. Their mean PSI values were not statistically variant from the mean PSI of the population. However,  the p-value of Lot 3 is below the significance level of 0.05 which means we do have sufficient evidence to reject the null hypothesis regarding this lot of suspension coil PSI values due the mean value being statistically variant from that of the mean PSI of the population.
+The p-values of Lots 1 and 2 are greater than the significance level of 0.05 which means we do not have sufficient evidence to reject the null hypothesis. Their mean PSI values were not statistically variant from the mean PSI of the population. However, the p-value of Lot 3 is below the significance level of 0.05 which means we do have sufficient evidence to reject the null hypothesis regarding this lot of suspension coil PSI values due the mean value being statistically variant from that of the mean PSI of the population.
 
 In regard to all manufacturing lots, the t-test revealed a p-value of approximately 0.06 which is slightly higher than the significance level of 0.06. Which also means that we do not have sufficient evidence to reject that the mean PSI in that the mean PSI values were not statistically different from the population mean of 1,500 pounds per square inch.
 
