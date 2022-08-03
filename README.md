@@ -25,7 +25,7 @@ The purpose of this analysis is to review the production data for insights that 
 
 Figure 1:
 
-![Image1](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image1](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D1.png)
 
 
 ***Deliverable 2: Linear Regression to Predict MPG*** The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using knowledge of R, create a summary statistics table to show; The suspension coil’s PSI continuous variable across all manufacturing lots, and the PSI metrics for each lot (mean, median, variance, and standard deviation).
@@ -35,19 +35,20 @@ Figure 1:
 
 "The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?" According to the lot summary dataframe analysis, Lots 1 and 2 maintain suspension coil specifications within 100 pounds per square inch. However, Lot 3 exceeds those specifications by a variance of approximately 170 pounds per square inch. In total, the combined three lots are within the 100 pounds per square inch variance of design specifications for the MechaCar suspension coils.
 
+
 Figure 2:
 
-![Image2](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image2](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D2.png)
 
 
 Figure 2.1:
 
-![Image2.1](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image2.1](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D2.1.png)
 
 
 Figure 2.2:
 
-![Image2.2](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image2.2](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D2.2.png)
 
 
 ***Deliverable 3: T-Tests on Suspension Coils*** Using knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
@@ -58,14 +59,15 @@ The p-values of Lots 1 and 2 are greater than the significance level of 0.05 whi
 
 In regard to all manufacturing lots, the t-test revealed a p-value of approximately 0.06 which is slightly higher than the significance level of 0.06. Which also means that we do not have sufficient evidence to reject that the mean PSI in that the mean PSI values were not statistically different from the population mean of 1,500 pounds per square inch.
 
+
 Figure 3:
 
-![Image3](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image3](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D3.png)
 
 
 Figure 3.1:
 
-![Image3.1](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image3.1](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D3.1.png)
 
 
 
@@ -77,7 +79,6 @@ A statistical study comparing how MechaCar performs against the competition, whi
 
 The null hypothesis could be that there is no statistical difference of the interior dimensions between MechaCar and that of its competitor's vehicles with similar fuel efficiency. The alternative hypothesis could be that there is a statistical difference of the interior dimensions between MechaCar and that of its competitor's vehicles with similar fuel efficiency. A statistical test which could be used to test the hypothesis is the one-sample t-test which would determine whether there is a statistical difference between that of MechaCar and that of the population dataset of all comparable vehicles. Interior dimensions and fuel efficiency data could be procured from websites like [caranddriver.com.](https://www.caranddriver.com/)
 
-
 Figure 4:
 
-![Image4](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+![Image4](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D4.png)
