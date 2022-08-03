@@ -54,10 +54,18 @@ Figure 2.2:
 
 ## T-Tests on Suspension Coils
 
+The p-values of Lots 1 and 2 are greater than the significance level of 0.05 which means we do not have sufficient evidence to reject the null hypothesis. Their mean PSI values were not statistically variant from the mean PSI of the population. However,  the p-value of Lot 3 is below the significance level of 0.05 which means we do have sufficient evidence to reject the null hypothesis regarding this lot of suspension coil PSI values due the mean value being statistically variant from that of the mean PSI of the population.
+
+In regard to all manufacturing lots, the t-test revealed a p-value of approximately 0.06 which is slightly higher than the significance level of 0.06. Which also means that we do not have sufficient evidence to reject that the mean PSI in that the mean PSI values were not statistically different from the population mean of 1,500 pounds per square inch.
 
 Figure 3:
 
 ![Image3](https://github.com/krismbah/bikesharing/blob/main/D1.png)
+
+
+Figure 3.1:
+
+![Image3.1](https://github.com/krismbah/bikesharing/blob/main/D1.png)
 
 
 
