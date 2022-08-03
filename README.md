@@ -71,36 +71,13 @@ Figure 3.1:
 
 ***Deliverable 4: Design a Study Comparing the MechaCar to the Competition*** Using knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
-## Linear Regression to Predict MPG
+## Study Design: MechaCar vs Competition
+
+A statistical study comparing how MechaCar performs against the competition, which would be of interest to consumers, could focus the analysis data on driver and passenger comfort. Performance metrics being that of interior dimensions like: hip room, head room, leg room, and shoulder room in the first, second, or possible third rows. These metrics could focus on MechaCar's most fuel efficient prototype as a means to manufacture the vehicle surrounding a consumer's strongest selling points. 
+
+The null hypothesis could be that there is no statistical difference of the interior dimensions between MechaCar and that of its competitor's vehicles with similar fuel efficiency. The alternative hypothesis could be that there is a statistical difference of the interior dimensions between MechaCar and that of its competitor's vehicles with similar fuel efficiency. A statistical test which could be used to test the hypothesis is the one-sample t-test which would determine whether there is a statistical difference between that of MechaCar and that of the population dataset of all comparable vehicles. Interior dimensions and fuel efficiency data could be procured from websites like [caranddriver.com.](https://www.caranddriver.com/)
 
 
 Figure 4:
 
 ![Image4](https://github.com/krismbah/bikesharing/blob/main/D1.png)
-
-
-
-
-## Summary
-
-To summarize, worksheets, dashboards, and and story was created in Tableu in order to visualize key data from a New York Citi Bike dataset. To solidify the proposal to investors, the following steps were implemented in the analysis in order to create the following dashboard:
-
-1. Create a DataFrame from the 201908-citibike-tripdata.csv file.
-2. Check the datatypes of each column in the DataFrame.
-3. Convert the "tripduration" column to a datetime datatype by passing the DataFrame column and the units inside the to_datetime() function.
-4. Add the number of records or the generated field that counts the number of records in the CSV file to the Rows.
-5. Add the "tripduration" column you converted to the Columns, and filter the "More" option by "Hour".
-6. Add the "tripduration" column again to the Columns, and filter the "More" option by "Minute", and then change the values from "discrete" to "continuous".
-7. Add the "tripduration" column that shows the "Hour" to the Filters field, and select "Show Filter".
-8. Edit the X and Y axis labels by right-clicking on the axis label and selecting "Edit Axis".
-9. Add the converted column for gender as a color to the Marks field, add it to the Filters field, and select "Show Filter".
-10. Edit the X and Y axis labels by right-clicking on the axis label and selecting "Edit Axis".
-11. Add the "Starttime" column to the Rows, and filter the "More" option by "Hour".
-12. Add the "Stoptime" column to the Columns, and filter the “More” option by "Weekday".
-13. Add the number of records or the generated field that counts the number of records in the CSV file to the Marks field as a color. Select "Automatic" for the type of graph to create the heatmap.
-14. Format the Y axis of the Starttime by Hour to show the 12-hour format.
-15. Add the "Usertype" to the Rows and to the Filters field, and select "Show Filter".
-16. Use the five visualizations that you created in Deliverable 2.
-17. Use at least two visualizations that you created in this module.
-
-[link to dashboard](https://public.tableau.com/views/2019NYCCitibikeDataAnalysis/2019NYCCitibikeDataAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
