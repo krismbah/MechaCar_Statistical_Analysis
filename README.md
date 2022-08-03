@@ -79,6 +79,7 @@ A statistical study comparing how MechaCar performs against the competition, whi
 
 The null hypothesis could be that there is no statistical difference of the interior dimensions between MechaCar and that of its competitor's vehicles with similar fuel efficiency. The alternative hypothesis could be that there is a statistical difference of the interior dimensions between MechaCar and that of its competitor's vehicles with similar fuel efficiency. A statistical test which could be used to test the hypothesis is the one-sample t-test which would determine whether there is a statistical difference between that of MechaCar and that of the population dataset of all comparable vehicles. Interior dimensions and fuel efficiency data could be procured from websites like [caranddriver.com.](https://www.caranddriver.com/)
 
+
 Figure 4:
 
-![Image4](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D4.png)
+![Image4](https://raw.githubusercontent.com/krismbah/MechaCar_Statistical_Analysis/main/D4.jpg)
